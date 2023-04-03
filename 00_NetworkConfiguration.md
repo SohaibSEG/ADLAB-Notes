@@ -7,7 +7,7 @@ This Network Consists of 2 Hosts :
 
 ## Domain Controller:
 
-```
+```powershell
 # finding the network adapter that is connected to the local network
 Get-NetAdapter
 # renaming it to distinguish it from other adapters
@@ -18,7 +18,7 @@ Get-NetAdapter -Name lan | New-NetIPAddress –IPAddress 10.0.0.1 -PrefixLength 
 
 ## Workstation:
 
-```
+```powershell
 # finding the network adapter that is connected to the local network
 Get-NetAdapter
 # renaming it to distinguish it from other adapters
